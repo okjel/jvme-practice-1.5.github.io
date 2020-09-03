@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Ремонт техники различных брендов</title>
+</head>
+
+<body class="page">
+  <div class="page__container">
+    <header class="header">
+      <h2 class="title">
+        Ремонт техники различных брендов
+      </h2>
+    </header>
+
+    <main class="main">
+      <ul class="brand-list">
+      </ul>
+      <button class="btn btn--show-all-brands" data-show="true">Показать все</button>
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </main>
+  </div>
+
+  <template id="brand-template">
+    <li class="brand-list__item brand-tab">
+      <img class="brand-tab__img" src="" alt="Бренд">
+      <a class="brand-tab__about" href="#"></a>
+    </li>
+  </template>
+
+  <template id="brand-template-slider">
+    <div class="swiper-slide">
+      <div class="brand-tab">
+        <img class="brand-tab__img" src="" alt="Бренд">
+        <a class="brand-tab__about" href="#"></a>
+      </div>
+    </div>
+  </template>
+</body>
+
+</html>

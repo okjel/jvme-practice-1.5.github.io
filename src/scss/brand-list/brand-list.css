@@ -1,0 +1,49 @@
+.brand-list {
+    display: none;
+
+    list-style: none;
+    margin-bottom: 24px;
+
+
+}
+
+@media (min-width: 768px) {
+    .brand-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+        height: 160px;
+        overflow: hidden;
+    }
+}
+
+.brand-list__item {
+    margin-bottom: 16px;
+}
+
+
+@media (min-width: 768px) {
+    .brand-list__item {
+        margin-right: 2%;
+    }
+
+    .brand-list__item:nth-child(3n) {
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 1120px) {
+    .brand-list__item {
+        margin-right: 2.66%;
+    }
+
+    .brand-list__item:nth-child(3n) {
+        margin-right: 2.66%;
+    }
+
+    .brand-list__item:nth-child(4n) {
+        margin-right: 0;
+    }
+}
+
+

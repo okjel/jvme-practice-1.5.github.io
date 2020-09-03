@@ -1,0 +1,16 @@
+.swiper {
+    height: 110px;
+    position: relative;
+    overflow: hidden;
+}
+
+.swiper .swiper-pagination-bullet-active {
+    background: #B5B6BC;
+}
+
+
+@media (min-width: 768px) {
+    .swiper {
+        display: none;
+    }
+}

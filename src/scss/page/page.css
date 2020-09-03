@@ -1,0 +1,17 @@
+.page {
+    box-sizing: border-box;
+  
+    color: #1B1C21;
+    font-family: 'TT Lakes', sans-serif;
+    background-color: #fff;
+    letter-spacing: -0.2px;
+}
+
+.page__container {
+    display: flex;
+    flex-direction: column;
+
+    min-width: 320px;
+    max-width: 1200px;
+    margin: 0 auto;
+}

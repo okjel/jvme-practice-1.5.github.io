@@ -1,0 +1,32 @@
+.btn {
+    display: none;
+    border: none;
+    background-color: transparent;
+    font-family: 'TT Lakes', sans-serif;
+    font-weight: 500;
+}
+
+@media (min-width: 768px) {
+    .btn {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.btn::before {
+    width: 8px;
+    height: 11px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    content: "";
+    padding-right: 17px;
+}
+
+
+.btn--show-all-brands::before {
+    background-image: url('../../img/icons/arrows_down.svg');
+}
+
+.btn--hide-brands::before {
+    background-image: url('../../img/icons/arrows_up.svg');
+}
